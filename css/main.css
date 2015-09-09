@@ -11,6 +11,19 @@ body {
 	position:relative;
 	z-index:1;
 }
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+.learn p {
+	font-family: 'Oswald', sans-serif;
+	color:black;
+	font-size:50px;
+	display:block;
+	width: 100%;
+/*	float:right;*/
+/*	padding-top:30px;*/
+/*	padding-left:400px;*/
+
+}
 
 .ryu {
 	float:left;
@@ -18,7 +31,7 @@ body {
 	height: 494px;
 }
 
-.ryu-ready, .ryu-still, .ryu-throwing {
+.ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
 	width: 659px;
 	height: 494px;
 }
@@ -37,7 +50,12 @@ body {
 	display:none;
 }
 
-.hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
+.ryu-cool {
+	background-image: url('../images/ryu-cool.gif');
+	display:none;
+}
+
+.hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
   background-repeat: no-repeat;
 }
 
