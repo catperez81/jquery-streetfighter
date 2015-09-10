@@ -13,16 +13,19 @@ body {
 }
 @import url(https://fonts.googleapis.com/css?family=Oswald);
 
+
+
 .learn p {
 	font-family: 'Oswald', sans-serif;
-	color:black;
-	font-size:50px;
-	display:block;
-	width: 100%;
-/*	float:right;*/
-/*	padding-top:30px;*/
-/*	padding-left:400px;*/
+    color: black;
+    font-size: 24px;
+    line-height: 30px;
 
+}
+
+p { 
+	margin-top: 30px;
+	padding-top: 50px;
 }
 
 .ryu {
